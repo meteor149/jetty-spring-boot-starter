@@ -1,0 +1,30 @@
+[versions]
+
+[libraries]
+spring-boot = { module = "org.springframework.boot:spring-boot", version = '3.1.2' }
+spring-boot-configuration = { module = "org.springframework.boot:spring-boot-configuration-processor", version = '3.1.2' }
+spring-boot-web = { module = "org.springframework.boot:spring-boot-starter-web", version = '3.1.2' }
+spring-boot-test = { module = "org.springframework.boot:spring-boot-starter-test", version = '3.1.2' }
+spring-web = { module = "org.springframework:spring-web", version = '6.0.11' }
+spring-autoconfigure = { module = "org.springframework.boot:spring-boot-autoconfigure", version = '3.1.2' }
+jakarta-servlet = { module = "jakarta.servlet:jakarta.servlet-api",version = "6.0.0" }
+jakarta-websocket-api = { module = "jakarta.websocket:jakarta.websocket-api",version = "2.1.1" }
+jakarta-websocket-client-api = { module = "jakarta.websocket:jakarta.websocket-client-api",version = "2.1.1" }
+tomcat-embed-el = { module = "org.apache.tomcat.embed:tomcat-embed-el",version = "10.1.12" }
+jetty-http = { module = "org.eclipse.jetty:jetty-http",version = "12.0.1" }
+jetty-alpn = { module = "org.eclipse.jetty:jetty-alpn-server",version = "12.0.1" }
+jetty-server = { module = "org.eclipse.jetty:jetty-server",version = "12.0.1" }
+jetty-http2-client = { module = "org.eclipse.jetty.http2:jetty-http2-client",version = "12.0.1" }
+jetty-http3-client = { module = "org.eclipse.jetty.http3:jetty-http3-client",version = "12.0.1" }
+jetty-http2-server = { module = "org.eclipse.jetty.http2:jetty-http2-server",version = "12.0.1" }
+jetty-http3-server = { module = "org.eclipse.jetty.http3:jetty-http3-server",version = "12.0.1" }
+jetty-ee10-servlets = { module = "org.eclipse.jetty.ee10:jetty-ee10-servlets",version = "12.0.1" }
+jetty-ee10-webapp = { module = "org.eclipse.jetty.ee10:jetty-ee10-webapp",version = "12.0.1" }
+jetty-ee10-websocket-jakarta-server = { module = "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-server",version = "12.0.1" }
+jetty-ee10-websocket-jetty-server = { module = "org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jetty-server",version = "12.0.1" }
+
+[bundles]
+
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version = '3.1.2' }

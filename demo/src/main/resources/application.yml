@@ -1,0 +1,7 @@
+jetty:
+  protocol: HTTP2
+
+server:
+  port: 8080
+  http2:
+    enabled: true
